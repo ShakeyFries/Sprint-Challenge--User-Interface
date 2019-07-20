@@ -69,6 +69,23 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+    //border: 1px solid red;
+    margin-top: 30px;
+}
+
+.container nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.container .jumbo-img {
+    margin: 30px 0px;
 }
 
 .top-content {
@@ -112,6 +129,47 @@ p {
     justify-content: center;
 }
 
+.boxes .box:nth-child(1) {
+    background-color: teal;
+}
+
+.boxes .box:nth-child(2) {
+    background-color: gold;
+}
+
+.boxes .box:nth-child(3) {
+    background-color: cadetblue;
+}
+
+.boxes .box:nth-child(4) {
+    background-color: coral;
+}
+
+.boxes .box:nth-child(5) {
+    background-color: crimson;
+}
+
+.boxes .box:nth-child(6) {
+    background-color:forestgreen;
+}
+
+.boxes .box:nth-child(7) {
+    background-color: darkorchid;
+}
+
+.boxes .box:nth-child(8) {
+    background-color: hotpink;
+}
+
+.boxes .box:nth-child(9) {
+    background-color:indigo;
+}
+
+.boxes .box:nth-child(10) {
+    background-color:dodgerblue;
+}
+
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -124,6 +182,40 @@ p {
 
 .bottom-content .text-container:last-child {
     padding-right: 0;
+}
+
+.atc .jumbo-about {
+    margin: 30px 0px;
+}
+
+.atc-text {
+    padding: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.amc .things {
+    width: 47%;
+    border-bottom: 1px dashed black;
+    padding-bottom: 10px;
+    margin-bottom: 50px
+}
+
+.amc {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.amc .things button {
+    width: 130px;
+    height: 40px;
+    background: none;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 footer {
@@ -143,4 +235,9 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.lwt {
+   margin-bottom: 50px;
+   margin-left: 20px;
 }
